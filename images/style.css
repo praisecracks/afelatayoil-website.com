@@ -1,0 +1,291 @@
+/* my css page */
+
+*{
+     margin: auto;
+      padding: auto;
+     margin-left: 5px;
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+
+}
+
+oil{
+    position: absolute;
+    left: 0%;
+    margin-top: -30px;
+}
+
+.navigation a::after{
+    text-decoration: none;
+ content: "";
+display: block;
+color: #fff;
+background-color: orange;
+height: 0px;
+width: 30px;
+margin-top: 2px;
+transition: 0.5s;
+transition-timing-function: ease;
+/* }
+.navigation a:hover::after{ */
+    width: auto;
+    height: 2px;
+    background-color: orange;
+
+}
+.button{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.button:hover{
+    background-color: red;
+    transition: 1s;
+    border: none;
+    box-shadow: 0px 0px 20px red, 0px 0px 40px red, 0px 0px 60px red;
+}
+.navigation a:hover::after{ 
+    margin-top: 10px;
+}
+
+.navigation li{
+    float: left;
+    display: flex;
+    margin: 50px;
+    align-items: end;
+}
+/* li a:hover{
+    width: 70px;
+    height: 40px;
+    background-color: blue;
+    transition: 1s;
+    
+} */
+
+body{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(another.jfif); */
+background-color: #000;
+
+}
+.line{
+    height: 400px;
+    width: 1px;
+    margin-right: 0%;
+    border-radius: 100%;
+    background-color: #fff;
+    align-items: center;
+}
+
+.we-dont{
+    font-size: 30px;
+}
+
+.adult{
+     font-size: 50px;
+     font-weight: 900;
+     color: rgb(254, 251, 250);
+
+}
+.energy{
+    background-color: orange;
+    font-size: 45px;
+}
+.write{
+    padding-top: 10px;
+}
+.cho{
+    color: #e8e4e4;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+.hero-btn{
+    padding: 15px 30px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 12px;
+    inset: 1;
+    color: #000;
+    background-color: transparent;
+}
+.hero-btn:hover{
+    background-color: orange;
+    transition: 1s;
+    border: none;
+}
+.check{
+    color: #000;
+}
+.div{
+    display: flex;
+    align-items: center;
+
+}
+.oooo{
+    color: #fff;
+}
+.PICI{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+
+.circle1{
+    width: 200px;
+    height: 100px;
+    padding-left: 20px;
+    background: linear-gradient(to right, black, black, grey);
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.logo{
+    left: 0%;
+    top: 0%;
+}
+.circle2{
+    margin-left: -150px;
+    width: 200px;
+    height: 200px;
+    /* background: linear-gradient(to left,black, red, orange);
+    border: 2px solid black; */
+    border-radius: 100%;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    position: inherit;
+}
+
+@keyframes move{
+    from{transform: translatey(0%);}
+    to{transform: translatey(50px);}
+}
+.navigation{
+    display: flex;
+    align-items: center;
+
+}
+.sharp{
+    color: orange;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.shift{
+    margin-top: -300px;
+}
+part1{
+    display: block;
+    align-items: center;
+}
+.socials{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to left, black, grey);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+    box-shadow: 0px 0px 20px grey;
+}
+.call{
+    border-radius: 20px;
+    cursor: alias;
+    box-shadow: 0px 0px 10px black;
+}
+.LINES{
+    width: 240px;
+    height: 1px;
+    background-color: orange;
+    border-radius: 100px;
+}
+.mail{
+    border-radius: 20px;
+    cursor: alias;
+    box-shadow: 0px 0px 10px black;
+}
+.images2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.shock{
+    text-decoration-line: underline;
+    text-shadow:0px 0px 10px #000;
+    cursor: pointer;
+}
+.socialses{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.ol{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition-timing-function: ease;
+}
+
+.ol:hover{
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+    transform: rotateZ(360deg);
+    transition-timing-function: ease;
+}
+
+.shape{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, black, black, grey);
+margin-top: -800px;
+margin-left: 300px;
+position: absolute;
+border-radius: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
